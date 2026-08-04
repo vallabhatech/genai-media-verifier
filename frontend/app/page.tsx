@@ -73,46 +73,11 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               { 
-                name: "Faizan", 
-                role: "Lead Engineer", 
-                img: "/images/faizan.png",
-                github: "https://github.com/Shaik-Faizan-Ahmed",
-                linkedin: "https://www.linkedin.com/in/faizan-ahmed-shaik/"
-              },
-              { 
                 name: "Vallabha", 
                 role: "AI Architecture", 
                 img: "/images/vallabha.png",
                 github: "http://github.com/vallabhatech",
                 linkedin: "http://linkedin.com/in/vallabha-tech"
-              },
-              { 
-                name: "Gurunanda", 
-                role: "Product Design", 
-                img: "/images/gurunanda.png",
-                github: "https://github.com/Gurunanda-2006",
-                linkedin: "https://www.linkedin.com/in/punna-gurunanda-653432312/"
-              },
-              { 
-                name: "Eswar Dudi", 
-                role: "Backend Architect", 
-                img: "/images/eswar.png",
-                github: "https://github.com/eswar-7116",
-                linkedin: "https://www.linkedin.com/in/eswar-dudi/"
-              },
-              { 
-                name: "Mohammad Rayhaanuddin", 
-                role: "Tester", 
-                img: "/images/rayhaan.png",
-                github: "https://github.com/Rayhaan1905",
-                linkedin: "https://www.linkedin.com/in/rayhaan-uddin-22a273322/"
-              },
-              { 
-                name: "Teja Dasarla", 
-                role: "Networking", 
-                img: "/images/teja.png",
-                github: "https://github.com/tejadasarla",
-                linkedin: "https://www.linkedin.com/in/teja-dasarla-4b5647308/"
               },
             ].map((member, idx) => (
               <div
